@@ -1,0 +1,4 @@
+node_modules/
+pubkeys/
+passwd
+*.ldif
