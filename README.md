@@ -47,19 +47,19 @@ A collection of scripts for synchronizing users and SSH public keys between Linu
 Generate LDIF file from exported users and keys:
 
 ```sh
-./gen-ldap.sh "dc=lab,dc=example,dc=edu"
+./gen-ldap.sh "dc=example,dc=com"
 ```
 
 With custom paths:
 
 ```sh
-./gen-ldap.sh "dc=lab,dc=edu" ./passwd ./pubkeys ./users.ldif
+./gen-ldap.sh "dc=example,dc=com" ./passwd ./pubkeys ./users.ldif
 ```
 
 Import into OpenLDAP:
 
 ```sh
-ldapadd -x -D "cn=admin,dc=lab,dc=edu" -W -f users.ldif
+ldapadd -x -D "cn=admin,dc=example,dc=com" -W -f users.ldif
 ```
 
 ## Requirements
