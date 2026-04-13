@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# sync_user.sh - Synchronize users from passwd file to local system
+# import-users.sh - Synchronize users from passwd file to local system
 #
 # DESCRIPTION:
 #   This script reads user entries from a passwd-format file and creates

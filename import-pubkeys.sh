@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-# paste-pubkey.sh - Deploy SSH public keys to user home directories
+# import-pubkeys.sh - Deploy SSH public keys to user home directories
 #
 # DESCRIPTION:
-#   This script reads public key files from the current directory and
+#   This script reads public key files from the pubkeys directory and
 #   deploys them to corresponding users' ~/.ssh/authorized_keys.
 #   The filename must match the username (e.g., file "john" -> /home/john/.ssh/).
 #

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# copy-pubkey.sh - Export SSH public keys from user home directories
+# export-pubkeys.sh - Export SSH public keys from user home directories
 #
 # DESCRIPTION:
 #   This script reads user entries from a passwd-format file and copies
@@ -8,7 +8,7 @@
 #   processes regular users (UID >= 1000) who have existing home directories.
 #
 # USAGE:
-#   ./copy-pubkey.sh
+#   ./export-pubkeys.sh
 #
 # REQUIREMENTS:
 #   - A 'passwd' file in the current directory (standard passwd format)
